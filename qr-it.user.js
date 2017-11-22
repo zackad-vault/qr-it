@@ -6,7 +6,7 @@
 // @include     https://*
 // @version     0.2.1
 // @grant       none
-// @license     MIT
+// @license     MIT; https://github.com/zackad/qr-it/blob/master/LICENSE
 // ==/UserScript==
 
 /*
