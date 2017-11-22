@@ -4,7 +4,7 @@
 // @description Create a qr code for current url page
 // @include     http://*
 // @include     https://*
-// @version     0.2.1
+// @version     0.2.2
 // @grant       none
 // @license     MIT; https://github.com/zackad/qr-it/blob/master/LICENSE
 // ==/UserScript==
