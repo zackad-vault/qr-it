@@ -4,7 +4,7 @@
 // @description Create a qr code for current url page
 // @include     http://*
 // @include     https://*
-// @version     0.2
+// @version     0.2.1
 // @grant       none
 // ==/UserScript==
 
@@ -47,7 +47,7 @@ function prepare() {
     var qrButton = document.createElement('div');
     qrButton.id = 'qr-button';
     qrButton.style = 'z-index: 9999; background: #fff; padding: 5px; border: 1px solid #000;'
-        +' display: inline-block; margin: 5px; position: fixed; bottom: 0px; cursor: pointer;';
+        +' display: inline-block; margin: 5px; position: fixed; bottom: 0; left: 0; cursor: pointer;';
     qrButton.onclick = 'qrit()';
     document.body.appendChild(qrButton);
     var button = document.getElementById('qr-button');
