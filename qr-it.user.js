@@ -1,10 +1,12 @@
 // ==UserScript==
 // @name        QR-it
-// @namespace   zackad's script
+// @namespace   https://github.com/zackad
 // @description Create a qr code for current url page
+// @version     0.2.3
 // @include     http://*
 // @include     https://*
-// @version     0.2.2
+// @exclude     http://localhost*
+// @exclude     http://127.0.0.1*
 // @grant       none
 // @license     MIT; https://github.com/zackad/qr-it/blob/master/LICENSE
 // ==/UserScript==
